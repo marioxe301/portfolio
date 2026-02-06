@@ -35,20 +35,24 @@ export function TechCodex({ technologies }: TechCodexProps) {
             <button
               key={tech.id}
               onClick={() => setSelectedTech(tech)}
-              className={`w-full bg-[#181825] border-2 p-2 md:p-3 text-left transition-all hover:bg-[#313244] ${
+              className={`w-full bg-[#181825] cursor-pointer border-2 p-2 md:p-3 text-left transition-all hover:bg-[#313244] ${
                 selectedTech?.id === tech.id
                   ? `${rarityBorders[tech.rarity]} bg-[#313244]`
                   : "border-[#45475a]"
               }`}
             >
               <div className="flex items-center gap-2 md:gap-3">
-                <span className="text-xl md:text-2xl flex-shrink-0">{tech.icon}</span>
+                <span className="text-xl md:text-2xl flex-shrink-0">
+                  {tech.icon}
+                </span>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-[9px] md:text-[10px] text-[#cdd6f4]">
                       #{tech.id.toString().padStart(3, "0")}
                     </span>
-                    <span className="text-[9px] md:text-[10px] text-[#cdd6f4] truncate">{tech.name}</span>
+                    <span className="text-[9px] md:text-[10px] text-[#cdd6f4] truncate">
+                      {tech.name}
+                    </span>
                   </div>
                   <span className={`text-[8px] ${rarityColors[tech.rarity]}`}>
                     {tech.rarity.toUpperCase()}
@@ -62,9 +66,13 @@ export function TechCodex({ technologies }: TechCodexProps) {
         <div className="bg-[#181825] border-2 md:border-4 border-[#45475a] p-4 md:p-6 lg:sticky lg:top-0">
           {selectedTech ? (
             <div>
-              <div className={`border-b-2 ${rarityBorders[selectedTech.rarity]} pb-4 mb-4`}>
+              <div
+                className={`border-b-2 ${rarityBorders[selectedTech.rarity]} pb-4 mb-4`}
+              >
                 <div className="flex items-start gap-3 md:gap-4 mb-3">
-                  <span className="text-4xl md:text-5xl flex-shrink-0">{selectedTech.icon}</span>
+                  <span className="text-4xl md:text-5xl flex-shrink-0">
+                    {selectedTech.icon}
+                  </span>
                   <div className="flex-1 min-w-0">
                     <div className="text-[9px] text-[#bac2de] mb-1">
                       #{selectedTech.id.toString().padStart(3, "0")}
@@ -72,7 +80,9 @@ export function TechCodex({ technologies }: TechCodexProps) {
                     <h3 className="text-[#f9e2af] text-xs md:text-sm mb-2 break-words">
                       {selectedTech.name}
                     </h3>
-                    <div className={`text-[9px] ${rarityColors[selectedTech.rarity]} mb-2`}>
+                    <div
+                      className={`text-[9px] ${rarityColors[selectedTech.rarity]} mb-2`}
+                    >
                       ★ {selectedTech.rarity.toUpperCase()}
                     </div>
                     <div className="text-[9px] text-[#bac2de] bg-[#313244] px-2 py-1 inline-block border border-[#45475a]">
@@ -84,7 +94,9 @@ export function TechCodex({ technologies }: TechCodexProps) {
 
               <div className="mb-4">
                 <h4 className="text-[#f9e2af] text-[10px] mb-2">DESCRIPTION</h4>
-                <p className="text-[9px] text-[#cdd6f4] leading-relaxed">{selectedTech.description}</p>
+                <p className="text-[9px] text-[#cdd6f4] leading-relaxed">
+                  {selectedTech.description}
+                </p>
               </div>
 
               <div className="mb-4">
@@ -96,10 +108,15 @@ export function TechCodex({ technologies }: TechCodexProps) {
                         <Zap className="w-3 h-3 text-[#f38ba8] flex-shrink-0" />
                         <span className="text-[#bac2de]">POWER</span>
                       </div>
-                      <span className="text-[#f38ba8]">{selectedTech.power}/100</span>
+                      <span className="text-[#f38ba8]">
+                        {selectedTech.power}/100
+                      </span>
                     </div>
                     <div className="h-2 bg-[#313244] border border-[#45475a]">
-                      <div className="h-full bg-[#f38ba8]" style={{ width: `${selectedTech.power}%` }} />
+                      <div
+                        className="h-full bg-[#f38ba8]"
+                        style={{ width: `${selectedTech.power}%` }}
+                      />
                     </div>
                   </div>
 
@@ -109,10 +126,15 @@ export function TechCodex({ technologies }: TechCodexProps) {
                         <Shield className="w-3 h-3 text-[#89b4fa] flex-shrink-0" />
                         <span className="text-[#bac2de]">MANA COST</span>
                       </div>
-                      <span className="text-[#89b4fa]">{selectedTech.mana}/100</span>
+                      <span className="text-[#89b4fa]">
+                        {selectedTech.mana}/100
+                      </span>
                     </div>
                     <div className="h-2 bg-[#313244] border border-[#45475a]">
-                      <div className="h-full bg-[#89b4fa]" style={{ width: `${selectedTech.mana}%` }} />
+                      <div
+                        className="h-full bg-[#89b4fa]"
+                        style={{ width: `${selectedTech.mana}%` }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -131,7 +153,9 @@ export function TechCodex({ technologies }: TechCodexProps) {
           ) : (
             <div className="text-center py-8 md:py-12">
               <Sparkles className="w-8 h-8 md:w-12 md:h-12 text-[#45475a] mx-auto mb-4" />
-              <p className="text-[10px] text-[#bac2de]">Select a technology from the list to view details</p>
+              <p className="text-[10px] text-[#bac2de]">
+                Select a technology from the list to view details
+              </p>
             </div>
           )}
         </div>
