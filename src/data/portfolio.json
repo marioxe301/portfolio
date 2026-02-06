@@ -1,0 +1,386 @@
+{
+  "site": {
+    "headerTitle": "SOFTWARE ENGINEER PORTFOLIO",
+    "headerSubtitle": "▸ A LEGENDARY DEVELOPER'S QUEST ▸"
+  },
+  "menu": [
+    { "id": "stats", "label": "STATUS" },
+    { "id": "skills", "label": "SKILLS" },
+    { "id": "codex", "label": "TECH CODEX" },
+    { "id": "quests", "label": "QUESTS" },
+    { "id": "experience", "label": "BATTLE LOG" },
+    { "id": "chronicles", "label": "CHRONICLES" },
+    { "id": "contact", "label": "CONTACT" }
+  ],
+  "stats": {
+    "heroName": "HERO NAME",
+    "levelTitle": "LV. 99 SOFTWARE ENGINEER",
+    "className": "Class: Full Stack Developer",
+    "hp": { "current": 100, "max": 100 },
+    "mp": { "current": 95, "max": 100 },
+    "exp": { "current": 85000, "max": 100000 },
+    "attributes": [
+      { "label": "INTELLIGENCE", "rating": 5 },
+      { "label": "CREATIVITY", "rating": 5 },
+      { "label": "PROBLEM SOLVING", "rating": 5 },
+      { "label": "TEAMWORK", "rating": 4 },
+      { "label": "COMMUNICATION", "rating": 4 }
+    ],
+    "location": "San Francisco, CA",
+    "experience": "5+ Years Experience",
+    "languages": "10+ Languages Mastered"
+  },
+  "skills": [
+    { "name": "React", "category": "Frontend", "icon": "⚛️", "mana": 40, "power": 95, "description": "Master the art of component-based UI creation" },
+    { "name": "TypeScript", "category": "Frontend", "icon": "📘", "mana": 35, "power": 90, "description": "Type-safe spellcasting for JavaScript wizards" },
+    { "name": "Next.js", "category": "Frontend", "icon": "▲", "mana": 45, "power": 88, "description": "Server-side rendering with React framework" },
+    { "name": "Tailwind", "category": "Frontend", "icon": "🎨", "mana": 20, "power": 85, "description": "Utility-first CSS framework for rapid styling" },
+
+    { "name": "Node.js", "category": "Backend", "icon": "🟢", "mana": 50, "power": 87, "description": "JavaScript runtime for server-side sorcery" },
+    { "name": "Python", "category": "Backend", "icon": "🐍", "mana": 45, "power": 85, "description": "Versatile language for backend and automation" },
+    { "name": "FastAPI", "category": "Backend", "icon": "⚡", "mana": 40, "power": 82, "description": "Modern, fast API framework for Python" },
+    { "name": "Express", "category": "Backend", "icon": "🚂", "mana": 35, "power": 80, "description": "Minimalist web framework for Node.js" },
+
+    { "name": "PostgreSQL", "category": "Database", "icon": "🐘", "mana": 45, "power": 83, "description": "Advanced relational database system" },
+    { "name": "MongoDB", "category": "Database", "icon": "🍃", "mana": 40, "power": 80, "description": "NoSQL document database for flexibility" },
+    { "name": "Redis", "category": "Database", "icon": "📦", "mana": 30, "power": 78, "description": "In-memory data structure store for speed" },
+
+    { "name": "AWS", "category": "DevOps", "icon": "☁️", "mana": 60, "power": 82, "description": "Cloud computing platform and services" },
+    { "name": "Docker", "category": "DevOps", "icon": "🐳", "mana": 50, "power": 85, "description": "Containerization for consistent deployments" },
+    { "name": "Git", "category": "DevOps", "icon": "🔱", "mana": 25, "power": 92, "description": "Version control system for code management" },
+
+    { "name": "Figma", "category": "Design", "icon": "🎭", "mana": 35, "power": 75, "description": "Collaborative interface design tool" },
+    { "name": "Framer", "category": "Design", "icon": "🎬", "mana": 40, "power": 72, "description": "Interactive design and prototyping platform" }
+  ],
+  "quests": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform Dungeon",
+      "description": "Built a full-stack e-commerce platform with real-time inventory management and payment processing.",
+      "difficulty": "Legendary",
+      "status": "Completed",
+      "reward": "+5000 EXP, Full Stack Mastery",
+      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "type": "professional"
+    },
+    {
+      "id": 2,
+      "title": "Social Media Dashboard Quest",
+      "description": "Developed an analytics dashboard for social media management with real-time data visualization.",
+      "difficulty": "Hard",
+      "status": "Completed",
+      "reward": "+3500 EXP, Data Visualization Skill",
+      "technologies": ["React", "TypeScript", "D3.js", "Firebase"],
+      "type": "professional"
+    },
+    {
+      "id": 3,
+      "title": "AI Chatbot Challenge",
+      "description": "Created an intelligent chatbot with natural language processing and machine learning capabilities.",
+      "difficulty": "Hard",
+      "status": "Completed",
+      "reward": "+4000 EXP, AI Integration Badge",
+      "technologies": ["Python", "TensorFlow", "FastAPI", "React"],
+      "type": "professional"
+    },
+    {
+      "id": 4,
+      "title": "Mobile App Expedition",
+      "description": "Building a cross-platform mobile application for task management and team collaboration.",
+      "difficulty": "Medium",
+      "status": "In Progress",
+      "reward": "+2500 EXP, Mobile Developer Title",
+      "technologies": ["React Native", "TypeScript", "MongoDB"],
+      "type": "professional"
+    },
+    {
+      "id": 5,
+      "title": "Open Source RPG Engine",
+      "description": "Developing a 2D RPG game engine with custom physics and sprite animation system. Open source on GitHub.",
+      "difficulty": "Hard",
+      "status": "In Progress",
+      "reward": "+3000 EXP, Game Dev Badge",
+      "technologies": ["TypeScript", "Canvas API", "WebGL"],
+      "type": "personal"
+    },
+    {
+      "id": 6,
+      "title": "Productivity CLI Tool Quest",
+      "description": "Created a command-line tool for managing development workflows with Git integration and task automation.",
+      "difficulty": "Medium",
+      "status": "Completed",
+      "reward": "+2000 EXP, CLI Master",
+      "technologies": ["Node.js", "Commander.js", "Chalk"],
+      "type": "personal"
+    },
+    {
+      "id": 7,
+      "title": "Weather Forecast Widget",
+      "description": "Built a customizable weather widget with beautiful animations and multiple location support.",
+      "difficulty": "Easy",
+      "status": "Completed",
+      "reward": "+1500 EXP, API Integration",
+      "technologies": ["React", "OpenWeather API", "Tailwind"],
+      "type": "personal"
+    },
+    {
+      "id": 8,
+      "title": "Portfolio Template Generator",
+      "description": "Creating a portfolio generator that creates custom developer portfolios based on GitHub profiles.",
+      "difficulty": "Medium",
+      "status": "In Progress",
+      "reward": "+2200 EXP, Template Master",
+      "technologies": ["Next.js", "GitHub API", "MDX"],
+      "type": "personal"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Tech Giant Inc.",
+      "role": "Senior Software Engineer",
+      "period": "2022 - Present",
+      "achievements": [
+        "Led team of 5 engineers in rebuilding core platform",
+        "Reduced page load time by 60% through optimization",
+        "Implemented CI/CD pipeline reducing deployment time by 75%"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "StartUp Ventures",
+      "role": "Full Stack Developer",
+      "period": "2020 - 2022",
+      "achievements": [
+        "Built MVP from scratch serving 50k+ users",
+        "Architected microservices infrastructure",
+        "Mentored 3 junior developers"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Digital Agency Pro",
+      "role": "Frontend Developer",
+      "period": "2019 - 2020",
+      "achievements": [
+        "Developed 15+ client websites and applications",
+        "Improved accessibility scores to 95+ average",
+        "Introduced React and modern tooling to team"
+      ]
+    }
+  ],
+  "chronicles": [
+    {
+      "id": 1,
+      "title": "The Great TypeScript Migration",
+      "date": "2026-01-15",
+      "excerpt": "A tale of converting a 50k+ line JavaScript codebase to TypeScript. The journey was long, but the rewards were worth it.",
+      "content": "# The Great TypeScript Migration\n\nAfter months of preparation, we finally completed our migration from JavaScript to TypeScript. This chronicle details the strategies we used, the challenges we faced, and the lessons learned along the way.\n\n## Why TypeScript?\n\nTypeScript provides **static typing** to JavaScript, which helps catch errors during development rather than at runtime. Here are the key benefits we experienced:\n\n- Early error detection during development\n- Better IDE support with autocomplete\n- Self-documenting code through type definitions\n- Easier refactoring with confidence\n\n## Migration Strategy\n\nWe adopted a **gradual migration approach**:\n\n1. Set up TypeScript configuration\n2. Convert utility functions first\n3. Migrate components one by one\n4. Add strict mode incrementally\n\n### Phase 1: Setup\n\n```typescript\n// tsconfig.json\n{\n  \"compilerOptions\": {\n    \"target\": \"ES2020\",\n    \"module\": \"ESNext\",\n    \"strict\": false,\n    \"jsx\": \"react-jsx\"\n  }\n}\n```\n\n### Phase 2: Core Utilities\n\nWe started with utility functions since they had clear inputs and outputs:\n\n```typescript\n// Before\nfunction formatDate(date) {\n  return new Date(date).toLocaleDateString();\n}\n\n// After\nfunction formatDate(date: string | Date): string {\n  return new Date(date).toLocaleDateString();\n}\n```\n\n## Challenges\n\nThe biggest challenge was dealing with **third-party libraries** without type definitions. We solved this by:\n\n- Using DefinitelyTyped (@types packages)\n- Writing custom .d.ts files when needed\n- Creating wrapper functions with proper types\n\n## Results\n\nAfter 3 months:\n- **Zero** runtime type errors in production\n- **70%** reduction in bugs\n- **50%** faster onboarding for new developers\n\n## Conclusion\n\nTypeScript migration was worth every hour invested. The initial overhead pays dividends through reduced bugs and improved developer experience.",
+      "tags": ["TypeScript", "Refactoring", "Best Practices"],
+      "readTime": "8 min"
+    },
+    {
+      "id": 2,
+      "title": "Mastering React Performance Optimization",
+      "date": "2026-01-02",
+      "excerpt": "Performance optimization is like leveling up your skills. Here are the techniques I used to reduce render times by 70%.",
+      "content": "# Mastering React Performance Optimization\n\nPerformance optimization can feel overwhelming, but with the right strategies, you can achieve significant improvements. In this post, I share practical techniques including memoization, code splitting, and lazy loading.\n\n## The Performance Problem\n\nOur app was experiencing:\n- Slow initial load times (5+ seconds)\n- Laggy interactions\n- Unnecessary re-renders\n\n## Optimization Techniques\n\n### 1. React.memo()\n\nPrevent unnecessary re-renders:\n\n```jsx\nconst ExpensiveComponent = React.memo(({ data }) => {\n  return <div>{/* Heavy rendering */}</div>;\n});\n```\n\n### 2. useMemo() and useCallback()\n\nCache expensive calculations:\n\n```jsx\nconst sortedData = useMemo(() => {\n  return data.sort((a, b) => a.value - b.value);\n}, [data]);\n```\n\n### 3. Code Splitting\n\nLoad components only when needed:\n\n```jsx\nconst Dashboard = lazy(() => import('./Dashboard'));\n```\n\n## Results\n\n- Initial load: **5s → 1.5s**\n- Time to interactive: **8s → 2s**\n- Re-render time: **300ms → 50ms**\n\n> \"Premature optimization is the root of all evil, but measured optimization is pure gold.\"\n\n## Key Takeaways\n\n1. Profile before optimizing\n2. Focus on the biggest bottlenecks\n3. Measure the impact of changes\n4. Don't over-optimize",
+      "tags": ["React", "Performance", "Optimization"],
+      "readTime": "12 min"
+    },
+    {
+      "id": 3,
+      "title": "Building a Design System from Scratch",
+      "date": "2025-12-20",
+      "excerpt": "Creating a scalable design system is a quest that requires careful planning and execution. Here's how we did it.",
+      "content": "# Building a Design System from Scratch\n\nA design system is more than just a component library - it's a shared language between designers and developers. This chronicle covers the entire process from initial planning to implementation.\n\n## What is a Design System?\n\nA design system includes:\n- **Design tokens** (colors, spacing, typography)\n- **Component library**\n- **Documentation**\n- **Guidelines and best practices**\n\n## Step 1: Define Design Tokens\n\n```css\n:root {\n  /* Colors */\n  --color-primary: #f9e2af;\n  --color-secondary: #89b4fa;\n\n  /* Spacing */\n  --space-xs: 0.25rem;\n  --space-sm: 0.5rem;\n  --space-md: 1rem;\n\n  /* Typography */\n  --font-size-sm: 0.875rem;\n  --font-size-base: 1rem;\n}\n```\n\n## Step 2: Build Core Components\n\nStart with atomic components:\n1. Button\n2. Input\n3. Typography\n4. Card\n\n## Benefits\n\n- **Consistency** across products\n- **Faster development** with reusable components\n- **Better collaboration** between design and engineering\n- **Easier maintenance**\n\n## Tools We Used\n\n- Figma for design\n- React + TypeScript for components\n- Storybook for documentation\n- Chromatic for visual testing",
+      "tags": ["Design Systems", "UI/UX", "Components"],
+      "readTime": "10 min"
+    },
+    {
+      "id": 4,
+      "title": "My Journey into Web Accessibility",
+      "date": "2025-12-05",
+      "excerpt": "Accessibility shouldn't be an afterthought. Learn how I made our application usable for everyone.",
+      "content": "# My Journey into Web Accessibility\n\nWeb accessibility opened my eyes to the importance of inclusive design. This post explores WCAG guidelines, screen reader testing, keyboard navigation, and how to build with accessibility in mind from day one.\n\n## Why Accessibility Matters\n\n> 15% of the world's population has some form of disability.\n\nMaking your site accessible:\n- Expands your user base\n- Improves SEO\n- Often improves UX for everyone\n- Is required by law in many cases\n\n## WCAG Principles: POUR\n\n1. **Perceivable** - Information must be presentable to users\n2. **Operable** - UI components must be operable\n3. **Understandable** - Information must be understandable\n4. **Robust** - Content must be robust enough for assistive technologies\n\n## Quick Wins\n\n### Semantic HTML\n\n```html\n<!-- Bad -->\n<div onclick=\"submit()\">Submit</div>\n\n<!-- Good -->\n<button type=\"submit\">Submit</button>\n```\n\n### Alt Text\n\n```html\n<img src=\"chart.png\" alt=\"Sales increased by 50% in Q4\" />\n```\n\n### Keyboard Navigation\n\nEnsure all interactive elements are keyboard accessible:\n- Tab to navigate\n- Enter/Space to activate\n- Escape to close modals\n\n### ARIA Labels\n\n```html\n<button aria-label=\"Close dialog\">×</button>\n```\n\n## Testing Tools\n\n- **WAVE** browser extension\n- **axe DevTools**\n- **Lighthouse** audits\n- **Screen readers** (NVDA, JAWS, VoiceOver)\n\n## Impact\n\nAfter implementing accessibility improvements:\n- **25%** increase in user engagement\n- **Zero** accessibility complaints\n- Positive feedback from users with disabilities\n\nRemember: Accessibility is not a feature, it's a requirement.",
+      "tags": ["Accessibility", "A11y", "Web Standards"],
+      "readTime": "6 min"
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "name": "React",
+      "icon": "⚛️",
+      "category": "Frontend Framework",
+      "description": "A JavaScript library for building user interfaces. React makes it painless to create interactive UIs with component-based architecture.",
+      "mana": 40,
+      "power": 95,
+      "rarity": "Legendary",
+      "url": "https://react.dev",
+      "discovered": true
+    },
+    {
+      "id": 2,
+      "name": "TypeScript",
+      "icon": "📘",
+      "category": "Programming Language",
+      "description": "TypeScript is JavaScript with syntax for types. It adds optional static typing to JavaScript that helps catch errors early.",
+      "mana": 35,
+      "power": 90,
+      "rarity": "Legendary",
+      "url": "https://www.typescriptlang.org",
+      "discovered": true
+    },
+    {
+      "id": 3,
+      "name": "Node.js",
+      "icon": "🟢",
+      "category": "Runtime Environment",
+      "description": "An asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
+      "mana": 50,
+      "power": 87,
+      "rarity": "Epic",
+      "url": "https://nodejs.org",
+      "discovered": true
+    },
+    {
+      "id": 4,
+      "name": "PostgreSQL",
+      "icon": "🐘",
+      "category": "Database",
+      "description": "A powerful, open source object-relational database system with strong reliability and data integrity.",
+      "mana": 45,
+      "power": 83,
+      "rarity": "Epic",
+      "url": "https://www.postgresql.org",
+      "discovered": true
+    },
+    {
+      "id": 5,
+      "name": "Docker",
+      "icon": "🐳",
+      "category": "DevOps Tool",
+      "description": "Platform for developing, shipping, and running applications in containers. Ensures consistency across environments.",
+      "mana": 50,
+      "power": 85,
+      "rarity": "Epic",
+      "url": "https://www.docker.com",
+      "discovered": true
+    },
+    {
+      "id": 6,
+      "name": "Next.js",
+      "icon": "▲",
+      "category": "Framework",
+      "description": "The React Framework for production with hybrid static & server rendering, TypeScript support, and smart bundling.",
+      "mana": 45,
+      "power": 88,
+      "rarity": "Rare",
+      "url": "https://nextjs.org",
+      "discovered": true
+    },
+    {
+      "id": 7,
+      "name": "Python",
+      "icon": "🐍",
+      "category": "Programming Language",
+      "description": "A high-level programming language known for its simplicity and versatility. Excellent for backend, data science, and automation.",
+      "mana": 45,
+      "power": 85,
+      "rarity": "Legendary",
+      "url": "https://www.python.org",
+      "discovered": true
+    },
+    {
+      "id": 8,
+      "name": "MongoDB",
+      "icon": "🍃",
+      "category": "Database",
+      "description": "A document-oriented NoSQL database designed for ease of development and scaling with flexible schema.",
+      "mana": 40,
+      "power": 80,
+      "rarity": "Rare",
+      "url": "https://www.mongodb.com",
+      "discovered": true
+    },
+    {
+      "id": 9,
+      "name": "Git",
+      "icon": "🔱",
+      "category": "Version Control",
+      "description": "A distributed version control system for tracking changes in source code. Essential for modern software development.",
+      "mana": 25,
+      "power": 92,
+      "rarity": "Legendary",
+      "url": "https://git-scm.com",
+      "discovered": true
+    },
+    {
+      "id": 10,
+      "name": "AWS",
+      "icon": "☁️",
+      "category": "Cloud Platform",
+      "description": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services.",
+      "mana": 60,
+      "power": 82,
+      "rarity": "Epic",
+      "url": "https://aws.amazon.com",
+      "discovered": true
+    },
+    {
+      "id": 11,
+      "name": "Tailwind CSS",
+      "icon": "🎨",
+      "category": "CSS Framework",
+      "description": "A utility-first CSS framework packed with classes for building custom designs quickly without leaving HTML.",
+      "mana": 20,
+      "power": 85,
+      "rarity": "Rare",
+      "url": "https://tailwindcss.com",
+      "discovered": true
+    },
+    {
+      "id": 12,
+      "name": "Redis",
+      "icon": "📦",
+      "category": "Cache/Database",
+      "description": "An in-memory data structure store used as a database, cache, and message broker. Known for extreme speed.",
+      "mana": 30,
+      "power": 78,
+      "rarity": "Rare",
+      "url": "https://redis.io",
+      "discovered": true
+    }
+  ],
+  "contacts": [
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "value": "hero@developer.com",
+      "action": "mailto:hero@developer.com"
+    },
+    {
+      "icon": "Github",
+      "label": "GitHub",
+      "value": "github.com/herodev",
+      "action": "https://github.com"
+    },
+    {
+      "icon": "Linkedin",
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/herodev",
+      "action": "https://linkedin.com"
+    },
+    {
+      "icon": "Globe",
+      "label": "Website",
+      "value": "herodev.com",
+      "action": "https://herodev.com"
+    }
+  ],
+  "cta": {
+    "primaryLabel": "INITIATE CONTACT",
+    "secondaryLabel": "DOWNLOAD RESUME"
+  }
+}
