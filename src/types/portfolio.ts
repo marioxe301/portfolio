@@ -39,6 +39,7 @@ export type Quest = {
   reward: string;
   technologies: string[];
   type: "professional" | "personal";
+  url?: string;
 };
 
 export type Experience = {
@@ -47,6 +48,7 @@ export type Experience = {
   role: string;
   period: string;
   achievements: string[];
+  website?: string;
 };
 
 export type Chronicle = {

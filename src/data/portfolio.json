@@ -1,6 +1,6 @@
 {
   "site": {
-    "headerTitle": "SOFTWARE ENGINEER PORTFOLIO",
+    "headerTitle": "MARIO FLORES PORTFOLIO",
     "headerSubtitle": "▸ A LEGENDARY DEVELOPER'S QUEST ▸"
   },
   "menu": [
@@ -13,207 +13,243 @@
     { "id": "contact", "label": "CONTACT" }
   ],
   "stats": {
-    "heroName": "HERO NAME",
-    "levelTitle": "LV. 99 SOFTWARE ENGINEER",
-    "className": "Class: Full Stack Developer",
+    "heroName": "MARIO FLORES",
+    "levelTitle": "LV. 27 SOFTWARE ENGINEER",
+    "className": "Class: Sr. Software Engineer",
     "hp": { "current": 100, "max": 100 },
     "mp": { "current": 95, "max": 100 },
-    "exp": { "current": 85000, "max": 100000 },
+    "exp": { "current": 72000, "max": 100000 },
     "attributes": [
       { "label": "INTELLIGENCE", "rating": 5 },
       { "label": "CREATIVITY", "rating": 5 },
       { "label": "PROBLEM SOLVING", "rating": 5 },
-      { "label": "TEAMWORK", "rating": 4 },
+      { "label": "TEAMWORK", "rating": 5 },
       { "label": "COMMUNICATION", "rating": 4 }
     ],
-    "location": "San Francisco, CA",
-    "experience": "5+ Years Experience",
-    "languages": "10+ Languages Mastered"
+    "location": "Honduras",
+    "experience": "4+ Years Experience",
+    "languages": "Spanish (Native) | English (Advanced)"
   },
   "skills": [
-    { "name": "React", "category": "Frontend", "icon": "⚛️", "mana": 40, "power": 95, "description": "Master the art of component-based UI creation" },
-    { "name": "TypeScript", "category": "Frontend", "icon": "📘", "mana": 35, "power": 90, "description": "Type-safe spellcasting for JavaScript wizards" },
-    { "name": "Next.js", "category": "Frontend", "icon": "▲", "mana": 45, "power": 88, "description": "Server-side rendering with React framework" },
-    { "name": "Tailwind", "category": "Frontend", "icon": "🎨", "mana": 20, "power": 85, "description": "Utility-first CSS framework for rapid styling" },
+    { "name": "React", "category": "Frontend", "icon": "⚛️", "mana": 40, "power": 95, "description": "Component-based UI architecture" },
+    { "name": "Next.js", "category": "Frontend", "icon": "▲", "mana": 45, "power": 92, "description": "Production React framework" },
+    { "name": "SvelteKit", "category": "Frontend", "icon": "🔥", "mana": 38, "power": 86, "description": "Svelte full-stack framework" },
+    { "name": "Nuxt", "category": "Frontend", "icon": "🟩", "mana": 38, "power": 84, "description": "Vue meta framework" },
+    { "name": "JavaScript", "category": "Frontend", "icon": "🟨", "mana": 35, "power": 90, "description": "Core web programming language" },
+    { "name": "TypeScript", "category": "Frontend", "icon": "📘", "mana": 35, "power": 92, "description": "Typed JavaScript for scalable apps" },
+    { "name": "HTML5", "category": "Frontend", "icon": "🧱", "mana": 20, "power": 85, "description": "Semantic markup and structure" },
+    { "name": "CSS3", "category": "Frontend", "icon": "🎨", "mana": 20, "power": 85, "description": "Modern styling and layout" },
+    { "name": "SASS", "category": "Frontend", "icon": "💅", "mana": 20, "power": 80, "description": "CSS preprocessor workflows" },
 
-    { "name": "Node.js", "category": "Backend", "icon": "🟢", "mana": 50, "power": 87, "description": "JavaScript runtime for server-side sorcery" },
-    { "name": "Python", "category": "Backend", "icon": "🐍", "mana": 45, "power": 85, "description": "Versatile language for backend and automation" },
-    { "name": "FastAPI", "category": "Backend", "icon": "⚡", "mana": 40, "power": 82, "description": "Modern, fast API framework for Python" },
-    { "name": "Express", "category": "Backend", "icon": "🚂", "mana": 35, "power": 80, "description": "Minimalist web framework for Node.js" },
+    { "name": "Node.js", "category": "Backend", "icon": "🟢", "mana": 50, "power": 88, "description": "JavaScript runtime for APIs" },
+    { "name": "Express", "category": "Backend", "icon": "🚂", "mana": 35, "power": 82, "description": "Minimalist Node.js framework" },
+    { "name": "NestJS", "category": "Backend", "icon": "🛡️", "mana": 45, "power": 86, "description": "Scalable Node.js architecture" },
+    { "name": "AWS Lambda", "category": "Backend", "icon": "⚡", "mana": 40, "power": 80, "description": "Serverless compute workflows" },
+    { "name": "GraphQL", "category": "Backend", "icon": "🧬", "mana": 35, "power": 78, "description": "Flexible data query APIs" },
+    { "name": "REST APIs", "category": "Backend", "icon": "🔗", "mana": 30, "power": 80, "description": "Resource-based API design" },
 
-    { "name": "PostgreSQL", "category": "Database", "icon": "🐘", "mana": 45, "power": 83, "description": "Advanced relational database system" },
-    { "name": "MongoDB", "category": "Database", "icon": "🍃", "mana": 40, "power": 80, "description": "NoSQL document database for flexibility" },
-    { "name": "Redis", "category": "Database", "icon": "📦", "mana": 30, "power": 78, "description": "In-memory data structure store for speed" },
+    { "name": "PostgreSQL", "category": "Database", "icon": "🐘", "mana": 45, "power": 83, "description": "Relational data management" },
+    { "name": "MongoDB", "category": "Database", "icon": "🍃", "mana": 40, "power": 80, "description": "Document database" },
+    { "name": "MySQL", "category": "Database", "icon": "🐬", "mana": 40, "power": 78, "description": "Reliable relational database" },
 
-    { "name": "AWS", "category": "DevOps", "icon": "☁️", "mana": 60, "power": 82, "description": "Cloud computing platform and services" },
-    { "name": "Docker", "category": "DevOps", "icon": "🐳", "mana": 50, "power": 85, "description": "Containerization for consistent deployments" },
-    { "name": "Git", "category": "DevOps", "icon": "🔱", "mana": 25, "power": 92, "description": "Version control system for code management" },
+    { "name": "AWS", "category": "DevOps", "icon": "☁️", "mana": 55, "power": 82, "description": "Cloud infrastructure services" },
+    { "name": "Docker", "category": "DevOps", "icon": "🐳", "mana": 50, "power": 85, "description": "Containerized deployments" },
+    { "name": "Git", "category": "DevOps", "icon": "🔱", "mana": 25, "power": 92, "description": "Version control mastery" },
+    { "name": "GitHub Actions", "category": "DevOps", "icon": "🤖", "mana": 30, "power": 80, "description": "CI/CD automation" },
+    { "name": "GitLab CI", "category": "DevOps", "icon": "🦊", "mana": 30, "power": 78, "description": "Pipeline orchestration" },
 
-    { "name": "Figma", "category": "Design", "icon": "🎭", "mana": 35, "power": 75, "description": "Collaborative interface design tool" },
-    { "name": "Framer", "category": "Design", "icon": "🎬", "mana": 40, "power": 72, "description": "Interactive design and prototyping platform" }
+    { "name": "Jest", "category": "Tools", "icon": "🃏", "mana": 25, "power": 82, "description": "JavaScript testing" },
+    { "name": "Chai", "category": "Tools", "icon": "☕", "mana": 20, "power": 75, "description": "Assertion library" },
+    { "name": "Playwright", "category": "Tools", "icon": "🎭", "mana": 30, "power": 78, "description": "End-to-end testing" },
+    { "name": "Contentful", "category": "Tools", "icon": "📦", "mana": 25, "power": 78, "description": "Headless CMS" },
+    { "name": "Strapi", "category": "Tools", "icon": "🧩", "mana": 25, "power": 76, "description": "Open-source CMS" }
   ],
   "quests": [
     {
       "id": 1,
-      "title": "E-Commerce Platform Dungeon",
-      "description": "Built a full-stack e-commerce platform with real-time inventory management and payment processing.",
+      "title": "Mirador LLC Financial Advisor Platform",
+      "description": "Built features, fixed bugs, and optimized performance for a financial advisor platform managing portfolios and reports.",
       "difficulty": "Legendary",
       "status": "Completed",
-      "reward": "+5000 EXP, Full Stack Mastery",
-      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "reward": "+5000 EXP, Platform Mastery",
+      "technologies": ["React", "Jest"],
+      "url": "https://mirador.com/we-serve/wealth-managers",
       "type": "professional"
     },
     {
       "id": 2,
-      "title": "Social Media Dashboard Quest",
-      "description": "Developed an analytics dashboard for social media management with real-time data visualization.",
-      "difficulty": "Hard",
+      "title": "Colombia University Document Viewer",
+      "description": "Refined codebase, migrated to TypeScript, and improved performance for an internal document viewer.",
+      "difficulty": "Medium",
       "status": "Completed",
-      "reward": "+3500 EXP, Data Visualization Skill",
-      "technologies": ["React", "TypeScript", "D3.js", "Firebase"],
+      "reward": "+2500 EXP, Stability Upgrade",
+      "technologies": ["React", "TypeScript", "Material UI"],
+      "url": "https://www.columbia.edu/",
       "type": "professional"
     },
     {
       "id": 3,
-      "title": "AI Chatbot Challenge",
-      "description": "Created an intelligent chatbot with natural language processing and machine learning capabilities.",
+      "title": "Rialtic Healthcare Claims Platform",
+      "description": "Implemented features and performance improvements for a healthcare claims and policy management system.",
       "difficulty": "Hard",
       "status": "Completed",
-      "reward": "+4000 EXP, AI Integration Badge",
-      "technologies": ["Python", "TensorFlow", "FastAPI", "React"],
+      "reward": "+3500 EXP, Healthcare Domain",
+      "technologies": ["Nuxt", "NestJS", "Prisma"],
+      "url": "https://www.rialtic.io/",
       "type": "professional"
     },
     {
       "id": 4,
-      "title": "Mobile App Expedition",
-      "description": "Building a cross-platform mobile application for task management and team collaboration.",
+      "title": "Free Referral Expert Network",
+      "description": "Delivered responsive web pages and interactive features for a consultations platform.",
       "difficulty": "Medium",
-      "status": "In Progress",
-      "reward": "+2500 EXP, Mobile Developer Title",
-      "technologies": ["React Native", "TypeScript", "MongoDB"],
+      "status": "Completed",
+      "reward": "+2200 EXP, UX Delivery",
+      "technologies": ["SvelteKit", "Contentful", "Tailwind"],
+      "url": "https://www.freereferral.com/",
       "type": "professional"
     },
     {
       "id": 5,
-      "title": "Open Source RPG Engine",
-      "description": "Developing a 2D RPG game engine with custom physics and sprite animation system. Open source on GitHub.",
+      "title": "Redpanda Data Streaming Website",
+      "description": "Translated UI/UX designs into fast, responsive pages and optimized performance.",
       "difficulty": "Hard",
-      "status": "In Progress",
-      "reward": "+3000 EXP, Game Dev Badge",
-      "technologies": ["TypeScript", "Canvas API", "WebGL"],
-      "type": "personal"
+      "status": "Completed",
+      "reward": "+3000 EXP, Web Performance",
+      "technologies": ["Next.js", "Tailwind", "Contentful"],
+      "url": "https://www.redpanda.com/",
+      "type": "professional"
     },
     {
       "id": 6,
-      "title": "Productivity CLI Tool Quest",
-      "description": "Created a command-line tool for managing development workflows with Git integration and task automation.",
+      "title": "Natura Wines E-commerce Site",
+      "description": "Built responsive pages and interactive features for a wine retailer catalog.",
       "difficulty": "Medium",
       "status": "Completed",
-      "reward": "+2000 EXP, CLI Master",
-      "technologies": ["Node.js", "Commander.js", "Chalk"],
-      "type": "personal"
+      "reward": "+2200 EXP, Commerce Builder",
+      "technologies": ["SvelteKit", "Tailwind", "Contentful"],
+      "url": "https://www.naturawines.com/",
+      "type": "professional"
     },
     {
       "id": 7,
-      "title": "Weather Forecast Widget",
-      "description": "Built a customizable weather widget with beautiful animations and multiple location support.",
+      "title": "Personal Portfolio Website",
+      "description": "Crafted a personal portfolio to showcase projects and skills.",
       "difficulty": "Easy",
       "status": "Completed",
-      "reward": "+1500 EXP, API Integration",
-      "technologies": ["React", "OpenWeather API", "Tailwind"],
+      "reward": "+1200 EXP, Personal Brand",
+      "technologies": ["Next.js", "React", "Tailwind"],
+      "url": "https://github.com/marioxe301/portfolio",
       "type": "personal"
     },
     {
       "id": 8,
-      "title": "Portfolio Template Generator",
-      "description": "Creating a portfolio generator that creates custom developer portfolios based on GitHub profiles.",
+      "title": "Radio Voz del Junko",
+      "description": "Built a live radio streaming application with informative features for listeners.",
+      "difficulty": "Hard",
+      "status": "Completed",
+      "reward": "+2800 EXP, Streaming Systems",
+      "technologies": ["React Native", "Expo", "Node.js", "Express"],
+      "url": "https://play.google.com/store/apps/details?id=com.appvozdeljunco.vozdeljunco&hl=en_US&pli=1",
+      "type": "personal"
+    },
+    {
+      "id": 9,
+      "title": "NestJS Prisma Boilerplate",
+      "description": "Created a scalable boilerplate with Prisma and repository patterns.",
       "difficulty": "Medium",
-      "status": "In Progress",
-      "reward": "+2200 EXP, Template Master",
-      "technologies": ["Next.js", "GitHub API", "MDX"],
+      "status": "Completed",
+      "reward": "+2000 EXP, Backend Architecture",
+      "technologies": ["NestJS", "Prisma", "TypeScript"],
+      "url": "https://github.com/marioxe301/prisma-nestjs-boilerplate",
+      "type": "personal"
+    },
+    {
+      "id": 10,
+      "title": "Brainfuck Interpreter",
+      "description": "Implemented a Brainfuck interpreter with Python and Pyparser.",
+      "difficulty": "Medium",
+      "status": "Completed",
+      "reward": "+1500 EXP, Language Theory",
+      "technologies": ["Python"],
+      "url": "https://github.com/marioxe301/BrainFuck-Interpreter",
+      "type": "personal"
+    },
+    {
+      "id": 11,
+      "title": "Recond Library",
+      "description": "Created a lightweight React conditional rendering library.",
+      "difficulty": "Easy",
+      "status": "Completed",
+      "reward": "+1200 EXP, OSS Craft",
+      "technologies": ["React", "TypeScript"],
+      "url": "https://github.com/marioxe301/RenCond-React",
       "type": "personal"
     }
   ],
   "experiences": [
     {
       "id": 1,
-      "company": "Tech Giant Inc.",
-      "role": "Senior Software Engineer",
-      "period": "2022 - Present",
+      "company": "Atomic Coders LLC",
+      "role": "Sr. Software Engineer",
+      "period": "2021 - Present",
+      "website": "https://www.atomiccoders.com/",
       "achievements": [
-        "Led team of 5 engineers in rebuilding core platform",
-        "Reduced page load time by 60% through optimization",
-        "Implemented CI/CD pipeline reducing deployment time by 75%"
+        "Developed and maintained web applications using modern frameworks",
+        "Collaborated with cross-functional teams to deliver high-quality software",
+        "Implemented best practices for code quality, testing, and deployment"
       ]
     },
     {
       "id": 2,
-      "company": "StartUp Ventures",
-      "role": "Full Stack Developer",
-      "period": "2020 - 2022",
+      "company": "Cause of a Kind (COAK)",
+      "role": "Sr. Full Stack Developer",
+      "period": "2023 - 2024",
+      "website": "https://www.causeofakind.com/",
       "achievements": [
-        "Built MVP from scratch serving 50k+ users",
-        "Architected microservices infrastructure",
-        "Mentored 3 junior developers"
+        "Implemented and maintained full-stack web applications",
+        "Worked with designers and product managers on user-friendly interfaces",
+        "Optimized application performance and scalability"
       ]
     },
     {
       "id": 3,
-      "company": "Digital Agency Pro",
-      "role": "Frontend Developer",
-      "period": "2019 - 2020",
+      "company": "Falcon Ingenieria",
+      "role": "Engineer Intern",
+      "period": "Apr 2021 - Sep 2021",
+      "website": "https://www.linkedin.com/company/falcon-ingenieria/posts/?feedView=all",
       "achievements": [
-        "Developed 15+ client websites and applications",
-        "Improved accessibility scores to 95+ average",
-        "Introduced React and modern tooling to team"
+        "Implemented software solutions with hardware integration for industrial applications"
       ]
-    }
-  ],
-  "chronicles": [
-    {
-      "id": 1,
-      "title": "The Great TypeScript Migration",
-      "date": "2026-01-15",
-      "excerpt": "A tale of converting a 50k+ line JavaScript codebase to TypeScript. The journey was long, but the rewards were worth it.",
-      "content": "# The Great TypeScript Migration\n\nAfter months of preparation, we finally completed our migration from JavaScript to TypeScript. This chronicle details the strategies we used, the challenges we faced, and the lessons learned along the way.\n\n## Why TypeScript?\n\nTypeScript provides **static typing** to JavaScript, which helps catch errors during development rather than at runtime. Here are the key benefits we experienced:\n\n- Early error detection during development\n- Better IDE support with autocomplete\n- Self-documenting code through type definitions\n- Easier refactoring with confidence\n\n## Migration Strategy\n\nWe adopted a **gradual migration approach**:\n\n1. Set up TypeScript configuration\n2. Convert utility functions first\n3. Migrate components one by one\n4. Add strict mode incrementally\n\n### Phase 1: Setup\n\n```typescript\n// tsconfig.json\n{\n  \"compilerOptions\": {\n    \"target\": \"ES2020\",\n    \"module\": \"ESNext\",\n    \"strict\": false,\n    \"jsx\": \"react-jsx\"\n  }\n}\n```\n\n### Phase 2: Core Utilities\n\nWe started with utility functions since they had clear inputs and outputs:\n\n```typescript\n// Before\nfunction formatDate(date) {\n  return new Date(date).toLocaleDateString();\n}\n\n// After\nfunction formatDate(date: string | Date): string {\n  return new Date(date).toLocaleDateString();\n}\n```\n\n## Challenges\n\nThe biggest challenge was dealing with **third-party libraries** without type definitions. We solved this by:\n\n- Using DefinitelyTyped (@types packages)\n- Writing custom .d.ts files when needed\n- Creating wrapper functions with proper types\n\n## Results\n\nAfter 3 months:\n- **Zero** runtime type errors in production\n- **70%** reduction in bugs\n- **50%** faster onboarding for new developers\n\n## Conclusion\n\nTypeScript migration was worth every hour invested. The initial overhead pays dividends through reduced bugs and improved developer experience.",
-      "tags": ["TypeScript", "Refactoring", "Best Practices"],
-      "readTime": "8 min"
-    },
-    {
-      "id": 2,
-      "title": "Mastering React Performance Optimization",
-      "date": "2026-01-02",
-      "excerpt": "Performance optimization is like leveling up your skills. Here are the techniques I used to reduce render times by 70%.",
-      "content": "# Mastering React Performance Optimization\n\nPerformance optimization can feel overwhelming, but with the right strategies, you can achieve significant improvements. In this post, I share practical techniques including memoization, code splitting, and lazy loading.\n\n## The Performance Problem\n\nOur app was experiencing:\n- Slow initial load times (5+ seconds)\n- Laggy interactions\n- Unnecessary re-renders\n\n## Optimization Techniques\n\n### 1. React.memo()\n\nPrevent unnecessary re-renders:\n\n```jsx\nconst ExpensiveComponent = React.memo(({ data }) => {\n  return <div>{/* Heavy rendering */}</div>;\n});\n```\n\n### 2. useMemo() and useCallback()\n\nCache expensive calculations:\n\n```jsx\nconst sortedData = useMemo(() => {\n  return data.sort((a, b) => a.value - b.value);\n}, [data]);\n```\n\n### 3. Code Splitting\n\nLoad components only when needed:\n\n```jsx\nconst Dashboard = lazy(() => import('./Dashboard'));\n```\n\n## Results\n\n- Initial load: **5s → 1.5s**\n- Time to interactive: **8s → 2s**\n- Re-render time: **300ms → 50ms**\n\n> \"Premature optimization is the root of all evil, but measured optimization is pure gold.\"\n\n## Key Takeaways\n\n1. Profile before optimizing\n2. Focus on the biggest bottlenecks\n3. Measure the impact of changes\n4. Don't over-optimize",
-      "tags": ["React", "Performance", "Optimization"],
-      "readTime": "12 min"
-    },
-    {
-      "id": 3,
-      "title": "Building a Design System from Scratch",
-      "date": "2025-12-20",
-      "excerpt": "Creating a scalable design system is a quest that requires careful planning and execution. Here's how we did it.",
-      "content": "# Building a Design System from Scratch\n\nA design system is more than just a component library - it's a shared language between designers and developers. This chronicle covers the entire process from initial planning to implementation.\n\n## What is a Design System?\n\nA design system includes:\n- **Design tokens** (colors, spacing, typography)\n- **Component library**\n- **Documentation**\n- **Guidelines and best practices**\n\n## Step 1: Define Design Tokens\n\n```css\n:root {\n  /* Colors */\n  --color-primary: #f9e2af;\n  --color-secondary: #89b4fa;\n\n  /* Spacing */\n  --space-xs: 0.25rem;\n  --space-sm: 0.5rem;\n  --space-md: 1rem;\n\n  /* Typography */\n  --font-size-sm: 0.875rem;\n  --font-size-base: 1rem;\n}\n```\n\n## Step 2: Build Core Components\n\nStart with atomic components:\n1. Button\n2. Input\n3. Typography\n4. Card\n\n## Benefits\n\n- **Consistency** across products\n- **Faster development** with reusable components\n- **Better collaboration** between design and engineering\n- **Easier maintenance**\n\n## Tools We Used\n\n- Figma for design\n- React + TypeScript for components\n- Storybook for documentation\n- Chromatic for visual testing",
-      "tags": ["Design Systems", "UI/UX", "Components"],
-      "readTime": "10 min"
     },
     {
       "id": 4,
-      "title": "My Journey into Web Accessibility",
-      "date": "2025-12-05",
-      "excerpt": "Accessibility shouldn't be an afterthought. Learn how I made our application usable for everyone.",
-      "content": "# My Journey into Web Accessibility\n\nWeb accessibility opened my eyes to the importance of inclusive design. This post explores WCAG guidelines, screen reader testing, keyboard navigation, and how to build with accessibility in mind from day one.\n\n## Why Accessibility Matters\n\n> 15% of the world's population has some form of disability.\n\nMaking your site accessible:\n- Expands your user base\n- Improves SEO\n- Often improves UX for everyone\n- Is required by law in many cases\n\n## WCAG Principles: POUR\n\n1. **Perceivable** - Information must be presentable to users\n2. **Operable** - UI components must be operable\n3. **Understandable** - Information must be understandable\n4. **Robust** - Content must be robust enough for assistive technologies\n\n## Quick Wins\n\n### Semantic HTML\n\n```html\n<!-- Bad -->\n<div onclick=\"submit()\">Submit</div>\n\n<!-- Good -->\n<button type=\"submit\">Submit</button>\n```\n\n### Alt Text\n\n```html\n<img src=\"chart.png\" alt=\"Sales increased by 50% in Q4\" />\n```\n\n### Keyboard Navigation\n\nEnsure all interactive elements are keyboard accessible:\n- Tab to navigate\n- Enter/Space to activate\n- Escape to close modals\n\n### ARIA Labels\n\n```html\n<button aria-label=\"Close dialog\">×</button>\n```\n\n## Testing Tools\n\n- **WAVE** browser extension\n- **axe DevTools**\n- **Lighthouse** audits\n- **Screen readers** (NVDA, JAWS, VoiceOver)\n\n## Impact\n\nAfter implementing accessibility improvements:\n- **25%** increase in user engagement\n- **Zero** accessibility complaints\n- Positive feedback from users with disabilities\n\nRemember: Accessibility is not a feature, it's a requirement.",
-      "tags": ["Accessibility", "A11y", "Web Standards"],
-      "readTime": "6 min"
+      "company": "Universidad Tecnologica Centroamericana (UNITEC)",
+      "role": "Computer Systems Engineering",
+      "period": "2017 - 2022",
+      "achievements": [
+        "Completed Computer Systems Engineering program",
+        "Built strong foundations in software engineering"
+      ]
+    },
+    {
+      "id": 5,
+      "company": "Instituto Experimental La Salle",
+      "role": "Bachelor of Science and Humanities",
+      "period": "2009 - 2016",
+      "achievements": [
+        "Completed science and humanities curriculum"
+      ]
     }
   ],
+  "chronicles": [],
   "technologies": [
     {
       "id": 1,
       "name": "React",
       "icon": "⚛️",
       "category": "Frontend Framework",
-      "description": "A JavaScript library for building user interfaces. React makes it painless to create interactive UIs with component-based architecture.",
+      "description": "Component-based UI development for modern web applications.",
       "mana": 40,
       "power": 95,
       "rarity": "Legendary",
@@ -222,10 +258,22 @@
     },
     {
       "id": 2,
+      "name": "Next.js",
+      "icon": "▲",
+      "category": "Framework",
+      "description": "React framework for performance and production delivery.",
+      "mana": 45,
+      "power": 92,
+      "rarity": "Epic",
+      "url": "https://nextjs.org",
+      "discovered": true
+    },
+    {
+      "id": 3,
       "name": "TypeScript",
       "icon": "📘",
       "category": "Programming Language",
-      "description": "TypeScript is JavaScript with syntax for types. It adds optional static typing to JavaScript that helps catch errors early.",
+      "description": "Static typing for JavaScript to scale large codebases.",
       "mana": 35,
       "power": 90,
       "rarity": "Legendary",
@@ -233,11 +281,47 @@
       "discovered": true
     },
     {
-      "id": 3,
+      "id": 4,
+      "name": "JavaScript",
+      "icon": "🟨",
+      "category": "Programming Language",
+      "description": "Core language for modern web applications.",
+      "mana": 35,
+      "power": 88,
+      "rarity": "Epic",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "discovered": true
+    },
+    {
+      "id": 5,
+      "name": "SvelteKit",
+      "icon": "🔥",
+      "category": "Framework",
+      "description": "Svelte-based full-stack framework for fast web apps.",
+      "mana": 35,
+      "power": 84,
+      "rarity": "Rare",
+      "url": "https://kit.svelte.dev",
+      "discovered": true
+    },
+    {
+      "id": 6,
+      "name": "Nuxt",
+      "icon": "🟩",
+      "category": "Framework",
+      "description": "Vue meta-framework for SSR and static sites.",
+      "mana": 35,
+      "power": 84,
+      "rarity": "Rare",
+      "url": "https://nuxt.com",
+      "discovered": true
+    },
+    {
+      "id": 7,
       "name": "Node.js",
       "icon": "🟢",
       "category": "Runtime Environment",
-      "description": "An asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
+      "description": "Server-side JavaScript runtime for scalable APIs.",
       "mana": 50,
       "power": 87,
       "rarity": "Epic",
@@ -245,11 +329,71 @@
       "discovered": true
     },
     {
-      "id": 4,
+      "id": 8,
+      "name": "Express",
+      "icon": "🚂",
+      "category": "Backend Framework",
+      "description": "Minimalist Node.js framework for APIs.",
+      "mana": 35,
+      "power": 82,
+      "rarity": "Rare",
+      "url": "https://expressjs.com",
+      "discovered": true
+    },
+    {
+      "id": 9,
+      "name": "NestJS",
+      "icon": "🛡️",
+      "category": "Backend Framework",
+      "description": "Opinionated Node.js framework for large applications.",
+      "mana": 45,
+      "power": 85,
+      "rarity": "Epic",
+      "url": "https://nestjs.com",
+      "discovered": true
+    },
+    {
+      "id": 10,
+      "name": "AWS Lambda",
+      "icon": "⚡",
+      "category": "Serverless",
+      "description": "Serverless compute for event-driven services.",
+      "mana": 40,
+      "power": 80,
+      "rarity": "Rare",
+      "url": "https://aws.amazon.com/lambda/",
+      "discovered": true
+    },
+    {
+      "id": 11,
+      "name": "GraphQL",
+      "icon": "🧬",
+      "category": "API Layer",
+      "description": "Query language for APIs with flexible data fetching.",
+      "mana": 35,
+      "power": 78,
+      "rarity": "Rare",
+      "url": "https://graphql.org",
+      "discovered": true
+    },
+    {
+      "id": 12,
+      "name": "REST APIs",
+      "icon": "🔗",
+      "category": "API Layer",
+      "description": "Resource-based API design and integration.",
+      "mana": 30,
+      "power": 80,
+      "rarity": "Rare",
+      "url": "https://restfulapi.net",
+      "discovered": true
+    },
+    {
+      "id": 13,
       "name": "PostgreSQL",
       "icon": "🐘",
       "category": "Database",
-      "description": "A powerful, open source object-relational database system with strong reliability and data integrity.",
+      "description": "Reliable relational database with advanced features.",
       "mana": 45,
       "power": 83,
       "rarity": "Epic",
@@ -257,47 +401,11 @@
       "discovered": true
     },
     {
-      "id": 5,
-      "name": "Docker",
-      "icon": "🐳",
-      "category": "DevOps Tool",
-      "description": "Platform for developing, shipping, and running applications in containers. Ensures consistency across environments.",
-      "mana": 50,
-      "power": 85,
-      "rarity": "Epic",
-      "url": "https://www.docker.com",
-      "discovered": true
-    },
-    {
-      "id": 6,
-      "name": "Next.js",
-      "icon": "▲",
-      "category": "Framework",
-      "description": "The React Framework for production with hybrid static & server rendering, TypeScript support, and smart bundling.",
-      "mana": 45,
-      "power": 88,
-      "rarity": "Rare",
-      "url": "https://nextjs.org",
-      "discovered": true
-    },
-    {
-      "id": 7,
-      "name": "Python",
-      "icon": "🐍",
-      "category": "Programming Language",
-      "description": "A high-level programming language known for its simplicity and versatility. Excellent for backend, data science, and automation.",
-      "mana": 45,
-      "power": 85,
-      "rarity": "Legendary",
-      "url": "https://www.python.org",
-      "discovered": true
-    },
-    {
-      "id": 8,
+      "id": 14,
       "name": "MongoDB",
       "icon": "🍃",
       "category": "Database",
-      "description": "A document-oriented NoSQL database designed for ease of development and scaling with flexible schema.",
+      "description": "Document-oriented NoSQL database for flexibility.",
       "mana": 40,
       "power": 80,
       "rarity": "Rare",
@@ -305,23 +413,23 @@
       "discovered": true
     },
     {
-      "id": 9,
-      "name": "Git",
-      "icon": "🔱",
-      "category": "Version Control",
-      "description": "A distributed version control system for tracking changes in source code. Essential for modern software development.",
-      "mana": 25,
-      "power": 92,
-      "rarity": "Legendary",
-      "url": "https://git-scm.com",
+      "id": 15,
+      "name": "MySQL",
+      "icon": "🐬",
+      "category": "Database",
+      "description": "Relational database for structured data.",
+      "mana": 40,
+      "power": 78,
+      "rarity": "Rare",
+      "url": "https://www.mysql.com",
       "discovered": true
     },
     {
-      "id": 10,
+      "id": 16,
       "name": "AWS",
       "icon": "☁️",
       "category": "Cloud Platform",
-      "description": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services.",
+      "description": "Cloud services for scalable infrastructure.",
       "mana": 60,
       "power": 82,
       "rarity": "Epic",
@@ -329,27 +437,171 @@
       "discovered": true
     },
     {
-      "id": 11,
-      "name": "Tailwind CSS",
-      "icon": "🎨",
-      "category": "CSS Framework",
-      "description": "A utility-first CSS framework packed with classes for building custom designs quickly without leaving HTML.",
-      "mana": 20,
+      "id": 17,
+      "name": "Docker",
+      "icon": "🐳",
+      "category": "DevOps Tool",
+      "description": "Containerization for reproducible environments.",
+      "mana": 50,
       "power": 85,
-      "rarity": "Rare",
-      "url": "https://tailwindcss.com",
+      "rarity": "Epic",
+      "url": "https://www.docker.com",
       "discovered": true
     },
     {
-      "id": 12,
-      "name": "Redis",
-      "icon": "📦",
-      "category": "Cache/Database",
-      "description": "An in-memory data structure store used as a database, cache, and message broker. Known for extreme speed.",
+      "id": 18,
+      "name": "Git",
+      "icon": "🔱",
+      "category": "Version Control",
+      "description": "Distributed version control system.",
+      "mana": 25,
+      "power": 92,
+      "rarity": "Legendary",
+      "url": "https://git-scm.com",
+      "discovered": true
+    },
+    {
+      "id": 19,
+      "name": "GitHub Actions",
+      "icon": "🤖",
+      "category": "CI/CD",
+      "description": "Automation for builds, tests, and deploys.",
+      "mana": 30,
+      "power": 80,
+      "rarity": "Rare",
+      "url": "https://github.com/features/actions",
+      "discovered": true
+    },
+    {
+      "id": 20,
+      "name": "GitLab CI",
+      "icon": "🦊",
+      "category": "CI/CD",
+      "description": "Continuous integration pipelines.",
       "mana": 30,
       "power": 78,
       "rarity": "Rare",
-      "url": "https://redis.io",
+      "url": "https://docs.gitlab.com/ee/ci/",
+      "discovered": true
+    },
+    {
+      "id": 21,
+      "name": "Jest",
+      "icon": "🃏",
+      "category": "Testing",
+      "description": "JavaScript testing framework.",
+      "mana": 25,
+      "power": 82,
+      "rarity": "Rare",
+      "url": "https://jestjs.io",
+      "discovered": true
+    },
+    {
+      "id": 22,
+      "name": "Chai",
+      "icon": "☕",
+      "category": "Testing",
+      "description": "Assertion library for tests.",
+      "mana": 20,
+      "power": 75,
+      "rarity": "Common",
+      "url": "https://www.chaijs.com",
+      "discovered": true
+    },
+    {
+      "id": 23,
+      "name": "Playwright",
+      "icon": "🎭",
+      "category": "Testing",
+      "description": "End-to-end testing for modern web apps.",
+      "mana": 30,
+      "power": 78,
+      "rarity": "Rare",
+      "url": "https://playwright.dev",
+      "discovered": true
+    },
+    {
+      "id": 24,
+      "name": "Contentful",
+      "icon": "📦",
+      "category": "CMS",
+      "description": "Headless CMS for content-driven apps.",
+      "mana": 25,
+      "power": 78,
+      "rarity": "Rare",
+      "url": "https://www.contentful.com",
+      "discovered": true
+    },
+    {
+      "id": 25,
+      "name": "Strapi",
+      "icon": "🧩",
+      "category": "CMS",
+      "description": "Open-source headless CMS.",
+      "mana": 25,
+      "power": 76,
+      "rarity": "Rare",
+      "url": "https://strapi.io",
+      "discovered": true
+    },
+    {
+      "id": 26,
+      "name": "React Native",
+      "icon": "📱",
+      "category": "Mobile",
+      "description": "Cross-platform mobile development with React.",
+      "mana": 40,
+      "power": 84,
+      "rarity": "Rare",
+      "url": "https://reactnative.dev",
+      "discovered": true
+    },
+    {
+      "id": 27,
+      "name": "Expo",
+      "icon": "🧭",
+      "category": "Mobile",
+      "description": "Tooling and services for React Native apps.",
+      "mana": 30,
+      "power": 78,
+      "rarity": "Rare",
+      "url": "https://expo.dev",
+      "discovered": true
+    },
+    {
+      "id": 28,
+      "name": "HTML5",
+      "icon": "🧱",
+      "category": "Frontend",
+      "description": "Semantic markup and structure.",
+      "mana": 20,
+      "power": 85,
+      "rarity": "Common",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "discovered": true
+    },
+    {
+      "id": 29,
+      "name": "CSS3",
+      "icon": "🎨",
+      "category": "Frontend",
+      "description": "Modern styling and layout.",
+      "mana": 20,
+      "power": 85,
+      "rarity": "Common",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "discovered": true
+    },
+    {
+      "id": 30,
+      "name": "Sass",
+      "icon": "💅",
+      "category": "Frontend",
+      "description": "CSS preprocessor workflows.",
+      "mana": 20,
+      "power": 80,
+      "rarity": "Common",
+      "url": "https://sass-lang.com",
       "discovered": true
     }
   ],
@@ -357,26 +609,26 @@
     {
       "icon": "Mail",
       "label": "Email",
-      "value": "hero@developer.com",
-      "action": "mailto:hero@developer.com"
+      "value": "marioxe301.dev@gmail.com",
+      "action": "mailto:marioxe301.dev@gmail.com"
     },
     {
       "icon": "Github",
       "label": "GitHub",
-      "value": "github.com/herodev",
-      "action": "https://github.com"
+      "value": "github.com/marioxe301",
+      "action": "https://github.com/marioxe301"
     },
     {
       "icon": "Linkedin",
       "label": "LinkedIn",
-      "value": "linkedin.com/in/herodev",
-      "action": "https://linkedin.com"
+      "value": "linkedin.com/in/mario-guillermo-flores-enamorado-5b301221b",
+      "action": "https://www.linkedin.com/in/mario-guillermo-flores-enamorado-5b301221b"
     },
     {
       "icon": "Globe",
       "label": "Website",
-      "value": "herodev.com",
-      "action": "https://herodev.com"
+      "value": "marioxe301.dev",
+      "action": "https://marioxe301.dev"
     }
   ],
   "cta": {

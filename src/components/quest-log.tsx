@@ -1,6 +1,6 @@
 "use client";
 
-import { Briefcase, Star, Sword, Trophy, User } from "lucide-react";
+import { Briefcase, ExternalLink, Star, Sword, Trophy, User } from "lucide-react";
 import { useState } from "react";
 
 import { RpgWindow } from "@/components/rpg-window";
@@ -102,9 +102,22 @@ export function QuestLog({ quests }: QuestLogProps) {
               </div>
             </div>
 
-            <div className="flex items-center gap-2 text-[10px] text-[#f9e2af] pt-2 border-t-2 border-[#45475a]">
-              <Star className="w-3 h-3" />
-              <span>REWARD: {quest.reward}</span>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 text-[10px] text-[#f9e2af] pt-2 border-t-2 border-[#45475a]">
+              <div className="flex items-center gap-2">
+                <Star className="w-3 h-3" />
+                <span>REWARD: {quest.reward}</span>
+              </div>
+              {quest.url && (
+                <a
+                  href={quest.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 px-2 py-1 bg-[#f9e2af] text-[#1e1e2e] border-2 border-[#f9e2af] text-[8px] hover:bg-[#fab387] hover:border-[#fab387] transition-colors"
+                >
+                  <ExternalLink className="w-3 h-3" />
+                  VIEW PROJECT
+                </a>
+              )}
             </div>
           </div>
         ))}

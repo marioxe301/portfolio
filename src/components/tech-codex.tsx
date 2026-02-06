@@ -31,13 +31,6 @@ export function TechCodex({ technologies }: TechCodexProps) {
     <RpgWindow title="TECHNOLOGY CODEX">
       <div className="grid lg:grid-cols-2 gap-4 md:gap-6">
         <div className="space-y-2 max-h-[500px] md:max-h-[600px] overflow-y-auto pr-2">
-          <div className="text-[9px] text-[#bac2de] mb-4 flex items-center gap-2">
-            <Sparkles className="w-3 h-3 flex-shrink-0" />
-            <span>
-              DISCOVERED: {technologies.filter((tech) => tech.discovered).length}/{technologies.length}
-            </span>
-          </div>
-
           {technologies.map((tech) => (
             <button
               key={tech.id}

@@ -1,4 +1,4 @@
-import { Scroll } from "lucide-react";
+import { ExternalLink, Scroll } from "lucide-react";
 
 import { RpgWindow } from "@/components/rpg-window";
 import type { Experience } from "@/types/portfolio";
@@ -25,13 +25,26 @@ export function BattleLog({ experiences }: BattleLogProps) {
               </div>
 
               <div className="flex-1 bg-[#181825] border-2 border-[#45475a] p-4">
-                <div className="flex justify-between items-start mb-2">
+                <div className="flex justify-between items-start mb-2 gap-3">
                   <div>
                     <h3 className="text-[#f9e2af] text-xs mb-1">{exp.role}</h3>
                     <p className="text-[10px] text-[#bac2de]">{exp.company}</p>
                   </div>
-                  <div className="px-2 py-1 bg-[#45475a] text-[8px] border border-[#45475a]">
-                    {exp.period}
+                  <div className="flex items-center gap-2">
+                    {exp.website && (
+                      <a
+                        href={exp.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 px-2 py-1 bg-[#f9e2af] text-[#1e1e2e] text-[8px] border border-[#f9e2af] hover:bg-[#fab387] hover:border-[#fab387] transition-colors"
+                      >
+                        <ExternalLink className="w-3 h-3" />
+                        VIEW PAGE
+                      </a>
+                    )}
+                    <div className="px-2 py-1 bg-[#45475a] text-[8px] border border-[#45475a]">
+                      {exp.period}
+                    </div>
                   </div>
                 </div>
 
