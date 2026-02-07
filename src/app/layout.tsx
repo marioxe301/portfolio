@@ -9,8 +9,21 @@ const pressStart2P = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "RPG Style Portfolio",
-  description: "A retro RPG-inspired developer portfolio.",
+  title: {
+    default: "Mario Flores | Software Engineer",
+    template: "%s | Mario Flores",
+  },
+  description:
+    "Retro RPG-inspired portfolio showcasing Mario Flores's experience, skills, projects, and contact details.",
+  keywords: [
+    "Mario Flores",
+    "Software Engineer",
+    "Frontend Developer",
+    "Full Stack Developer",
+    "React",
+    "Next.js",
+    "Portfolio",
+  ],
 };
 
 export default function RootLayout({

@@ -25,12 +25,12 @@ export function BattleLog({ experiences }: BattleLogProps) {
               </div>
 
               <div className="flex-1 bg-[#181825] border-2 border-[#45475a] p-4">
-                <div className="flex justify-between items-start mb-2 gap-3">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between mb-2">
                   <div>
                     <h3 className="text-[#f9e2af] text-xs mb-1">{exp.role}</h3>
                     <p className="text-[10px] text-[#bac2de]">{exp.company}</p>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2 sm:justify-end">
                     {exp.website && (
                       <a
                         href={exp.website}
