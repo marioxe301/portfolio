@@ -30,12 +30,14 @@ export function ContactDialog({ contacts, cta }: ContactDialogProps) {
             <div className="min-w-0">
               <p className="text-[9px] md:text-[10px] leading-relaxed mb-2 md:mb-3">
                 <span className="text-[#f9e2af]">▸ </span>
-                "Greetings, traveler! I am a Software Engineer on a quest to build amazing digital experiences. Would
-                you like to join forces on your next adventure?"
+                "Greetings, traveler! I am a Software Engineer on a quest to
+                build amazing digital experiences. Would you like to join forces
+                on your next adventure?"
               </p>
               <p className="text-[9px] md:text-[10px] leading-relaxed text-[#bac2de]">
                 <span className="text-[#f9e2af]">▸ </span>
-                Choose your preferred method of communication below to begin our collaboration quest!
+                Choose your preferred method of communication below to begin our
+                collaboration quest!
               </p>
             </div>
           </div>
@@ -69,12 +71,19 @@ export function ContactDialog({ contacts, cta }: ContactDialogProps) {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-2 md:gap-3">
-          <button className="flex-1 bg-[#f9e2af] text-[#1e1e2e] px-4 md:px-6 py-2 md:py-3 text-[9px] md:text-[10px] border-2 md:border-4 border-[#45475a] hover:bg-[#f5c2e7] transition-all active:translate-y-1">
+          <a
+            href="mailto:marioxe301.dev@gmail.com"
+            className="flex-1 bg-[#f9e2af] text-[#1e1e2e] px-4 md:px-6 py-2 md:py-3 text-[9px] md:text-[10px] border-2 md:border-4 border-[#45475a] hover:bg-[#f5c2e7] transition-all active:translate-y-1 text-center"
+          >
             ▸ {cta.primaryLabel}
-          </button>
-          <button className="flex-1 bg-[#45475a] text-[#cdd6f4] px-4 md:px-6 py-2 md:py-3 text-[9px] md:text-[10px] border-2 md:border-4 border-[#45475a] hover:bg-[#585b70] transition-all active:translate-y-1">
+          </a>
+          <a
+            href="/mario-flores-cv.pdf"
+            download
+            className="flex-1 bg-[#45475a] text-[#cdd6f4] px-4 md:px-6 py-2 md:py-3 text-[9px] md:text-[10px] border-2 md:border-4 border-[#45475a] hover:bg-[#585b70] transition-all active:translate-y-1 text-center"
+          >
             ▸ {cta.secondaryLabel}
-          </button>
+          </a>
         </div>
       </div>
     </RpgWindow>
