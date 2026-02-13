@@ -177,13 +177,13 @@
     },
     {
       "id": 11,
-      "title": "Recond Library",
-      "description": "Created a lightweight React conditional rendering library.",
+      "title": "Renderly",
+      "description": "Created a Lightweight conditional-render components with the same mental model across frameworks.",
       "difficulty": "Easy",
       "status": "Completed",
       "reward": "+1200 EXP, OSS Craft",
-      "technologies": ["React", "TypeScript"],
-      "url": "https://github.com/marioxe301/RenCond-React",
+      "technologies": ["React", "Vue", "Solid","Svelte", "TypeScript"],
+      "url": "https://github.com/marioxe301/renderly",
       "type": "personal"
     }
   ],
